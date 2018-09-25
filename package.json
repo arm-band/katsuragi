@@ -1,0 +1,33 @@
+{
+  "name": "KATSURAGI",
+  "version": "0.1.2",
+  "description": "PHPで1ファイルの簡易CMSができないかという試み。",
+  "main": "gulpfile.js",
+  "scripts": {
+    "ippaku": "mkdirp ./src/gencss ./src/genjs ./dist",
+    "gulp": "gulp",
+    "odunu": "rimraf ./src/gencss/ ./src/genjs/ ./dist/ ./package-lock.json"
+  },
+  "author": "Arm Band",
+  "license": "ISC",
+  "devDependencies": {
+    "brand-colors": "^2.0.1",
+    "browser-sync": "^2.24.4",
+    "copyfiles": "^2.0.0",
+    "gulp": "next",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "mkdirp": "^0.5.1",
+    "readline-sync": "^1.4.9",
+    "rename-files-cli": "^1.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
